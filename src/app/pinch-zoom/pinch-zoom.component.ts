@@ -20,7 +20,7 @@ export class PinchZoomComponent implements OnInit {
 
     i = 0;
 
-    scale = 1;
+    public scale = 1;
     initialScale = 1;
 
     _id: any;
